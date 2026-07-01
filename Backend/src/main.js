@@ -5,6 +5,7 @@ import db from '../src/database/connect.js';
 import productosRoutes from './routes/productosRoutes.js';
 import contactoRoutes from './routes/contactoRoutes.js';
 import dolarRoutes from './routes/dolarRoutes.js';
+import mpRoutes from './routes/mpRoutes.js';
 import urbanLogger from './middlewares/loggerMiddleware.js';
 
 const app = express();
@@ -18,6 +19,7 @@ db.connectToDB();
 app.use('/api/productos', productosRoutes);
 app.use('/api/contactos', contactoRoutes);
 app.use('/api/externa', dolarRoutes);
+app.use('/api/mercadopago', mpRoutes);
 
 app.listen(config.PORT, () => {
     console.log(`[2die4] Servidor corriendo en: http://localhost:${config.PORT}`);

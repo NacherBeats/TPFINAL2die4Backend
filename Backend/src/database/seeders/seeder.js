@@ -84,7 +84,7 @@ const conectarEjecutar = async () => {
                 precio: 14000,
                 imagen: "https://i.ibb.co/NdgNn4mQ/Gorra-ny.png",
                 edicionLimitada: false,
-                tallesStock: { "S": 10, "M": 25, "L": 20, "XL": 0 }
+                tallesStock: { "ÚNICO": 35 }
             },
             {
                 nombre: "Cap Dad Hat",
@@ -92,7 +92,7 @@ const conectarEjecutar = async () => {
                 precio: 16500,
                 imagen: "https://i.ibb.co/9mMZvjp0/gorra-letras.png",
                 edicionLimitada: true,
-                tallesStock: { "S": 0, "M": 15, "L": 15, "XL": 0 }
+                tallesStock: { "ÚNICO": 15 }
             },
             {
                 nombre: "Gorra Beanie Conventillo",
@@ -100,7 +100,7 @@ const conectarEjecutar = async () => {
                 precio: 12000,
                 imagen: "https://i.ibb.co/MyXs9jDc/Gorra-North.png",
                 edicionLimitada: false,
-                tallesStock: { "S": 20, "M": 20, "L": 0, "XL": 0 }
+                tallesStock: { "ÚNICO": 20 }
             },
             {
                 nombre: "Gorra Rose Gold",
@@ -108,7 +108,7 @@ const conectarEjecutar = async () => {
                 precio: 18000,
                 imagen: "https://i.ibb.co/fVn21nkL/Gorra-rose.png",
                 edicionLimitada: true,
-                tallesStock: { "S": 0, "M": 8, "L": 8, "XL": 0 }
+                tallesStock: { "ÚNICO": 16 }
             },
             {
                 nombre: "Cap Lunfarda",
@@ -116,7 +116,7 @@ const conectarEjecutar = async () => {
                 precio: 15000,
                 imagen: "https://i.ibb.co/JRf5LfGf/Gorra-LA.png",
                 edicionLimitada: false,
-                tallesStock: { "S": 0, "M": 10, "L": 10, "XL": 0 }
+                tallesStock: { "ÚNICO": 22 }
             },
             {
                 nombre: "Gorra Malevo Clasica",
@@ -124,15 +124,15 @@ const conectarEjecutar = async () => {
                 precio: 13500,
                 imagen: "https://i.ibb.co/6cd2K4ds/Gorra-Nike.png",
                 edicionLimitada: false,
-                tallesStock: { "S": 5, "M": 15, "L": 10, "XL": 0 }
+                tallesStock: { "ÚNICO": 35 }
             },
             {
                 nombre: "Gorra Clasica bordada",
                 descripcion: "Parche de adidas y visera curva.",
-                precio: 19500,
+                precio: 10,
                 imagen: "https://i.ibb.co/m5PxxfpD/Gorra-adidas.png",
                 edicionLimitada: true,
-                tallesStock: { "S": 0, "M": 5, "L": 5, "XL": 0 }
+                tallesStock: { "ÚNICO": 10 }
             }
         ];
 
